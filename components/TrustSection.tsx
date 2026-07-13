@@ -59,9 +59,16 @@ export function TrustSection() {
             Trusted locally
           </p>
           <h2 className="display trust-headline">
-            <span className="trust-headline-line">Recognition you</span>
-            <br />
-            <span className="trust-headline-line">can verify.</span>
+            <span className="trust-headline-desktop">
+              <span className="trust-headline-line">Recognition you</span>
+              <br aria-hidden />
+              <span className="trust-headline-line">can verify.</span>
+            </span>
+            <span className="trust-headline-mobile">
+              <span className="trust-headline-line">Recognition</span>
+              <br aria-hidden />
+              <span className="trust-headline-line">you can verify.</span>
+            </span>
           </h2>
           <p className="trust-lead">{site.trustCopy}</p>
         </Reveal>

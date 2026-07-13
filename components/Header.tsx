@@ -27,8 +27,9 @@ export function Header() {
           <Link href="/#process">Process</Link>
           <Link href="/#reviews">Reviews</Link>
           <SocialLinks className="nav-social" />
-          <a className="phone" href={site.phoneHref}>
-            {site.phone}
+          <a className="phone" href={site.phoneHref} aria-label={`Call ${site.phone}`}>
+            <span className="phone-full">{site.phone}</span>
+            <span className="phone-short">Call</span>
           </a>
         </nav>
       </div>

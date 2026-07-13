@@ -111,14 +111,12 @@ export default function HomePage() {
         <p className="hero-brandline">
           White-glove roofing · Est. experience 28 yrs
         </p>
-        <aside className="hero-trust" aria-label="Our promise">
-          <p>{site.trustCopy}</p>
-        </aside>
         <div className="wrap hero-inner">
           <div className="hero-top">
             <p className="eyebrow">{site.areas}</p>
             <h1 className="display">
-              Roofing{" "}
+              <span className="hero-title-line">Roofing</span>{" "}
+              <br className="hero-title-break" aria-hidden />
               <span className="hero-title-phrase">
                 done right<span className="dot">.</span>
               </span>
@@ -130,6 +128,9 @@ export default function HomePage() {
               — and your insurance claim — with the care your home or business
               deserves.
             </p>
+            <aside className="hero-trust" aria-label="Our promise">
+              <p>{site.trustCopy}</p>
+            </aside>
             <div className="hero-ctas">
               <Link className="btn on-dark solid" href="#contact">
                 Get a free inspection

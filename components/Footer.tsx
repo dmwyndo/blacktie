@@ -1,0 +1,37 @@
+import Link from "next/link";
+import { Logo } from "@/components/Logo";
+import { site } from "@/lib/site";
+
+export function Footer() {
+  return (
+    <footer>
+      <div className="wrap">
+        <div className="foot-grid">
+          <div>
+            <Link
+              className="foot-brand"
+              href="/"
+              aria-label={`${site.name} — Home`}
+            >
+              <Logo />
+            </Link>
+          </div>
+          <div className="foot-meta">
+            {site.locations}
+            <br />
+            <a href={site.phoneHref}>{site.phone}</a>
+          </div>
+          <div className="foot-meta">
+            Residential · Commercial · Storm response
+            <br />
+            Free on-site estimates
+          </div>
+        </div>
+        <div className="foot-legal">
+          <span>© {new Date().getFullYear()} {site.name}. All rights reserved.</span>
+          <span>Owned by {site.owners}</span>
+        </div>
+      </div>
+    </footer>
+  );
+}

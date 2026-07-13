@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Bowtie } from "@/components/Bowtie";
 import { Reveal } from "@/components/Reveal";
+import { TrustSection } from "@/components/TrustSection";
 import { site } from "@/lib/site";
 
 const whyItems = [
@@ -110,23 +111,33 @@ export default function HomePage() {
         <p className="hero-brandline">
           White-glove roofing · Est. experience 28 yrs
         </p>
+        <aside className="hero-trust" aria-label="Our promise">
+          <p>{site.trustCopy}</p>
+        </aside>
         <div className="wrap hero-inner">
-          <p className="eyebrow">{site.areas}</p>
-          <h1 className="display">
-            Roofing done right<span className="dot">.</span>
-          </h1>
-          <p>
-            From the first inspection to the final cleanup, we handle your roof
-            — and your insurance claim — with the care your home or business
-            deserves.
-          </p>
-          <div className="hero-ctas">
-            <Link className="btn on-dark solid" href="#contact">
-              Get a free inspection
-            </Link>
-            <a className="btn on-dark ghost" href={site.phoneHref}>
-              Call {site.phone}
-            </a>
+          <div className="hero-top">
+            <p className="eyebrow">{site.areas}</p>
+            <h1 className="display">
+              Roofing{" "}
+              <span className="hero-title-phrase">
+                done right<span className="dot">.</span>
+              </span>
+            </h1>
+          </div>
+          <div className="hero-bottom">
+            <p>
+              From the first inspection to the final cleanup, we handle your roof
+              — and your insurance claim — with the care your home or business
+              deserves.
+            </p>
+            <div className="hero-ctas">
+              <Link className="btn on-dark solid" href="#contact">
+                Get a free inspection
+              </Link>
+              <a className="btn on-dark ghost" href={site.phoneHref}>
+                Call {site.phone}
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -154,6 +165,8 @@ export default function HomePage() {
           </Reveal>
         </div>
       </section>
+
+      <TrustSection />
 
       <section className="why">
         <div className="wrap">

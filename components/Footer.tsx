@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Logo } from "@/components/Logo";
+import { SocialLinks } from "@/components/SocialLinks";
 import { site } from "@/lib/site";
 
 export function Footer() {
@@ -15,6 +16,7 @@ export function Footer() {
             >
               <Logo />
             </Link>
+            <SocialLinks className="foot-social" />
           </div>
           <div className="foot-meta">
             {site.locations}

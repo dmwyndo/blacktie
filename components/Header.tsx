@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Logo } from "@/components/Logo";
+import { SocialLinks } from "@/components/SocialLinks";
 import { site } from "@/lib/site";
 
 export function Header() {
@@ -25,6 +26,7 @@ export function Header() {
           <Link href="/#services">Services</Link>
           <Link href="/#process">Process</Link>
           <Link href="/#reviews">Reviews</Link>
+          <SocialLinks className="nav-social" />
           <a className="phone" href={site.phoneHref}>
             {site.phone}
           </a>

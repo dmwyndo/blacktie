@@ -23,7 +23,7 @@ export function Header() {
           <Logo />
         </Link>
         <nav className="nav-links" aria-label="Primary">
-          <Link href="/#services">Services</Link>
+          <Link href="/commercial">Commercial</Link>
           <Link href="/#process">Process</Link>
           <Link href="/#reviews">Reviews</Link>
           <SocialLinks className="nav-social" />

@@ -3,12 +3,14 @@ export const site = {
   phone: "(817) 401-6440",
   phoneHref: "tel:8174016440",
   email: "info@blacktieroofs.com",
-  areas: "Dallas–Fort Worth · Tyler · San Angelo",
+  areas: "Dallas–Fort Worth",
   locations: "Fort Worth · Tyler · San Angelo",
-  owners: "Kyler Ellison & Curry Austin",
   tagline: "Roofing done right.",
   trustCopy:
     "From quick repairs to full replacements, we deliver honest pricing, quality workmanship, and roofs that last.",
+  googlePlaceId: "ChIJ94qzaVDfTYYRfJy5nzsroqo",
+  googlePlaceQuery:
+    "Black Tie Roofing and Construction, 1309 Twisting Meadows Dr, Haslet, TX",
   links: {
     facebook:
       "https://www.facebook.com/Black-Tie-Roofing-and-Construction-2402018770034705/",
@@ -44,7 +46,7 @@ export const site = {
     },
   ],
   trustPoints: [
-    "28+ years of experience",
+    "12+ years of experience",
     "Licensed & insured",
     "Insurance claim support",
     "Workmanship warranty",

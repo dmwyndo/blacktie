@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Bowtie } from "@/components/Bowtie";
 import { Reveal } from "@/components/Reveal";
+import { GoogleReviewsSection } from "@/components/GoogleReviewsSection";
 import { TrustSection } from "@/components/TrustSection";
 import { site } from "@/lib/site";
 
@@ -77,24 +78,6 @@ const steps = [
   },
 ] as const;
 
-const sideQuotes = [
-  {
-    quote:
-      "It was so refreshing having them out there on site especially with all the roofers out there just trying to sell you.",
-    cite: "Daniel H.",
-  },
-  {
-    quote:
-      "He didn’t try to sell us anything we didn’t need and informed us that our roof is good right now.",
-    cite: "Racquel A.",
-  },
-  {
-    quote:
-      "The cleanup was so good that I could not tell that they had ever been in my yard.",
-    cite: "James S.",
-  },
-] as const;
-
 export default function HomePage() {
   return (
     <main id="top">
@@ -147,7 +130,7 @@ export default function HomePage() {
         <div className="wrap intro-grid">
           <Reveal className="stat">
             <div className="num">
-              28<span>+</span>
+              12<span>+</span>
             </div>
             <div className="label">Years on Texas roofs</div>
           </Reveal>
@@ -228,7 +211,7 @@ export default function HomePage() {
             <Link className="btn on-dark solid" href="#contact">
               See residential services
             </Link>
-            <Link className="btn on-dark ghost" href="#contact">
+            <Link className="btn on-dark ghost" href="/commercial">
               See commercial services
             </Link>
           </Reveal>
@@ -253,31 +236,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="quotes" id="reviews">
-        <div className="wrap">
-          <Reveal className="sect-head">
-            <p className="eyebrow">What neighbors say</p>
-          </Reveal>
-          <div className="quote-grid">
-            <Reveal as="figure" className="quote-main">
-              <blockquote>
-                Chas really helped me understand the process and worked with my
-                insurance… I felt like I could trust them to take care of things
-                honestly and professionally.
-              </blockquote>
-              <cite>— Shelby L.</cite>
-            </Reveal>
-            <Reveal className="quote-side">
-              {sideQuotes.map((q) => (
-                <figure key={q.cite}>
-                  <blockquote>“{q.quote}”</blockquote>
-                  <cite>— {q.cite}</cite>
-                </figure>
-              ))}
-            </Reveal>
-          </div>
-        </div>
-      </section>
+      <GoogleReviewsSection />
 
       <section className="closing" id="contact">
         <div className="bg">

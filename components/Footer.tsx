@@ -31,7 +31,6 @@ export function Footer() {
         </div>
         <div className="foot-legal">
           <span>© {new Date().getFullYear()} {site.name}. All rights reserved.</span>
-          <span>Owned by {site.owners}</span>
         </div>
       </div>
     </footer>

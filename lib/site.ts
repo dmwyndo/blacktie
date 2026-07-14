@@ -4,7 +4,7 @@ export const site = {
   phoneHref: "tel:8174016440",
   email: "info@blacktieroofs.com",
   areas: "Dallas–Fort Worth",
-  locations: "Fort Worth · Tyler · San Angelo",
+  locations: "Fort Worth",
   tagline: "Roofing done right.",
   trustCopy:
     "From quick repairs to full replacements, we deliver honest pricing, quality workmanship, and roofs that last.",
@@ -50,6 +50,6 @@ export const site = {
     "Licensed & insured",
     "Insurance claim support",
     "Workmanship warranty",
-    "Serving DFW, Tyler & San Angelo",
+    "Serving DFW",
   ],
 } as const;

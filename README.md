@@ -1,6 +1,6 @@
 # Black Tie Roofing
 
-Next.js website for Black Tie Roofing — DFW, Tyler & San Angelo.
+Next.js website for Black Tie Roofing — DFW.
 
 ## Develop
 

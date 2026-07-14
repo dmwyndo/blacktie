@@ -7,7 +7,7 @@ Rewritten site content for the new Black Tie Roofing website. Based on an audit 
 ## Content audit (current site)
 
 ### What’s working
-- Real differentiators exist: insurance advocacy, honest inspections, thorough cleanup, named project managers, multi-market coverage (DFW, Tyler, San Angelo).
+- Real differentiators exist: insurance advocacy, honest inspections, thorough cleanup, named project managers, DFW market coverage.
 - Strong testimonials — especially around hail claims, communication, and “they didn’t try to sell me what I didn’t need.”
 - Clear service breadth: residential, commercial, storm repair, gutters, and related exterior work.
 - Credible product partners (CertainTeed, Owens Corning, Malarkey, Tamko, IKO).
@@ -25,7 +25,7 @@ Rewritten site content for the new Black Tie Roofing website. Based on an audit 
 **Black Tie Roofing** should sound like the roofing company you call when you want the process handled — inspection, insurance, install, cleanup — with the same care you’d expect from a white-glove service. Premium without pretension. Direct. Local. Honest.
 
 **Primary promise:** Roofing done right — from claim to cleanup.  
-**Audience:** DFW / Tyler / San Angelo homeowners and commercial property managers dealing with storm damage, aging roofs, or new construction.  
+**Audience:** DFW homeowners and commercial property managers dealing with storm damage, aging roofs, or new construction.  
 **Proof points:** 28+ years experience · Licensed & insured · Insurance claim support · Warrantied work · Named local teams
 
 ---
@@ -62,7 +62,7 @@ Rewritten site content for the new Black Tie Roofing website. Based on an audit 
 - Contact
 
 ### Header utility
-Serving Dallas–Fort Worth, Tyler & San Angelo  
+Serving Dallas–Fort Worth  
 **(817) 401-6440** · Get a free inspection
 
 ### Footer
@@ -73,7 +73,7 @@ Roofing done right — from claim to cleanup.
 info@blacktieroofs.com  
 Mon–Fri 8:00 am – 5:00 pm
 
-Locations: Fort Worth · Tyler · San Angelo
+Locations: Fort Worth
 
 Nav links · Terms · Privacy
 
@@ -82,18 +82,18 @@ Nav links · Terms · Privacy
 - Licensed & insured
 - Insurance claim support
 - Workmanship warranty
-- Serving DFW, Tyler & San Angelo
+- Serving DFW
 
 ---
 
 ## Home
 
 ### Meta
-**Title:** Black Tie Roofing | DFW, Tyler & San Angelo Roofers  
+**Title:** Black Tie Roofing | DFW Roofers  
 **Description:** Residential and commercial roofing with white-glove service — inspections, storm claims, installs, and cleanup. Free on-site estimate. Call (817) 401-6440.
 
 ### Hero
-**Eyebrow / service area:** Dallas–Fort Worth · Tyler · San Angelo
+**Eyebrow / service area:** Dallas–Fort Worth
 
 **Brand:** Black Tie Roofing
 
@@ -106,7 +106,7 @@ Nav links · Terms · Privacy
 ### Intro
 North Texas weather is hard on roofs. Black Tie Roofing makes the fix straightforward.
 
-We install, replace, and repair residential and commercial roofs across the Dallas–Fort Worth Metroplex, Tyler, and San Angelo. With more than 28 years of experience, we walk you through product choices, coordinate with your insurance adjuster when storm damage is involved, and leave your property cleaner than we found it.
+We install, replace, and repair residential and commercial roofs across the Dallas–Fort Worth Metroplex. With more than 28 years of experience, we walk you through product choices, coordinate with your insurance adjuster when storm damage is involved, and leave your property cleaner than we found it.
 
 ### Why Black Tie
 **Headline:** White-glove roofing, without the runaround.
@@ -121,7 +121,7 @@ We install, replace, and repair residential and commercial roofs across the Dall
    Quality materials, careful crews, and a cleanup so thorough neighbors ask if anyone was even there.
 
 4. **Local teams**  
-   Owned by Kyler Ellison and Curry Austin, with dedicated branches in Fort Worth, Tyler, and San Angelo.
+   Owned by Kyler Ellison and Curry Austin, headquartered in Fort Worth.
 
 ### Services snapshot
 **Headline:** Homes and businesses. Flat roofs and steep slopes.
@@ -166,7 +166,7 @@ We install, replace, and repair residential and commercial roofs across the Dall
 
 ### Meta
 **Title:** About Black Tie Roofing | Our Story & Team  
-**Description:** Meet the owners and local teams behind Black Tie Roofing — serving Fort Worth, Tyler, and San Angelo with honest, warrantied roofing work.
+**Description:** Meet the owners and local teams behind Black Tie Roofing — serving Fort Worth and the DFW Metroplex with honest, warrantied roofing work.
 
 ### Hero
 **Brand signal:** Black Tie Roofing  
@@ -179,11 +179,9 @@ Black Tie Roofing & Construction is a locally owned roofing company serving Nort
 We bring more than **28 years of industry experience** to every project — from a single leak repair to a full commercial reroof. No job is too small. We help with insurance claims, meet adjusters on site, document the scope of work, install with quality materials, clean up thoroughly, and warranty what we do.
 
 ### Markets
-**Headline:** Three markets. One standard.
+**Headline:** One market. One standard.
 
-- **Fort Worth / DFW** — Serving Dallas, Fort Worth, Haslet, and surrounding counties  
-- **Tyler** — East Texas homes and businesses, led by Tyler Andreason  
-- **San Angelo** — Local branch led by Travis Britton
+- **Fort Worth / DFW** — Serving Dallas, Fort Worth, Haslet, and surrounding counties
 
 ### Meet the crew
 **Headline:** People you’ll actually talk to
@@ -191,10 +189,6 @@ We bring more than **28 years of industry experience** to every project — from
 **Kyler Ellison** — Owner & managing partner. Founded Black Tie to put customer relationships first. Lives in Fort Worth with his family.
 
 **Curry Austin** — Owner. Known for turnkey, white-glove project leadership and making sure homeowners understand every step.
-
-**Travis Britton** — San Angelo branch operator. Born and raised in San Angelo; focused on growing a trusted local presence.
-
-**Tyler Andreason** — Tyler branch manager. Local to East Texas and dedicated to matching what homeowners there expect from a contractor.
 
 **Jimmy Holaway** — Project manager (Weatherford / west DFW). Respected for communication, insurance coordination, and going the extra mile.
 
@@ -215,7 +209,7 @@ We bring more than **28 years of industry experience** to every project — from
 ## Residential
 
 ### Meta
-**Title:** Residential Roofing in DFW, Tyler & San Angelo | Black Tie  
+**Title:** Residential Roofing in DFW | Black Tie  
 **Description:** New roofs, replacements, and storm repairs for North Texas homes. Top-brand materials, insurance help, and warrantied workmanship. Free on-site estimate.
 
 ### Hero
@@ -225,7 +219,7 @@ We bring more than **28 years of industry experience** to every project — from
 **CTA:** Schedule a free on-site estimate
 
 ### Intro
-We improve and protect homes across the Dallas–Fort Worth Metroplex, Tyler, and San Angelo. From asphalt shingles to metal, tile, and shake, we install systems from leading manufacturers — and back our work with a warranty.
+We improve and protect homes across the Dallas–Fort Worth Metroplex. From asphalt shingles to metal, tile, and shake, we install systems from leading manufacturers — and back our work with a warranty.
 
 ### New roof installation & replacement
 **Headline:** When repair isn’t enough
@@ -257,7 +251,7 @@ After a storm, the roof is often only part of the story. We can also help with *
 ## Commercial
 
 ### Meta
-**Title:** Commercial Roofing | Black Tie Roofing — DFW, Tyler & San Angelo  
+**Title:** Commercial Roofing | Black Tie Roofing — DFW  
 **Description:** Commercial roof installation and emergency repair for retail, multifamily, medical, schools, and industrial properties. TPO, PVC, metal, and more.
 
 ### Hero
@@ -267,7 +261,7 @@ After a storm, the roof is often only part of the story. We can also help with *
 **CTA:** Request a commercial inspection
 
 ### Intro
-We’re locally owned and operated, serving medical facilities, retail, restaurants, multifamily housing, schools, industrial and manufacturing sites, and more across the DFW Metroplex, Tyler, and San Angelo.
+We’re locally owned and operated, serving medical facilities, retail, restaurants, multifamily housing, schools, industrial and manufacturing sites, and more across the DFW Metroplex.
 
 Whether you need a new roof on a ground-up build or an urgent repair on an existing facility, we scope the work clearly and execute with professional crews.
 
@@ -328,7 +322,7 @@ CertainTeed · Tamko · Malarkey · Owens Corning · IKO
 
 ### Meta
 **Title:** Storm Damage & Insurance Claims | Black Tie Roofing  
-**Description:** Hail and wind damage inspections with insurance claim support across DFW, Tyler, and San Angelo. We meet adjusters, document scope, and restore your roof.
+**Description:** Hail and wind damage inspections with insurance claim support across DFW. We meet adjusters, document scope, and restore your roof.
 
 ### Hero
 **Headline:** Storm hit? We’ll handle the hard parts.  
@@ -356,7 +350,7 @@ You’ll get clear communication, professional installation, and a cleanup that 
 
 ### Meta
 **Title:** Contact Black Tie Roofing | Free Inspection  
-**Description:** Call (817) 401-6440 or send a message for a free roofing inspection in Dallas–Fort Worth, Tyler, or San Angelo.
+**Description:** Call (817) 401-6440 or send a message for a free roofing inspection in Dallas–Fort Worth.
 
 ### Hero
 **Headline:** Tell us about your roof.  
@@ -364,7 +358,7 @@ You’ll get clear communication, professional installation, and a cleanup that 
 
 ### Contact details
 **Black Tie Roofing & Construction**  
-Serving Dallas–Fort Worth, Tyler & San Angelo
+Serving Dallas–Fort Worth
 
 **Phone:** (817) 401-6440  
 **Email:** info@blacktieroofs.com  
@@ -428,7 +422,6 @@ Use 4–6 on the home page; keep the full set for an About or Reviews section.
 - Hail damage roof repair DFW  
 - Residential roof replacement Fort Worth  
 - Commercial TPO roofing Dallas  
-- Roofing Tyler TX / San Angelo TX  
 - Insurance claim roofing contractor  
 
 ### Homepage H1 rule

@@ -21,7 +21,7 @@ const whyItems = [
   },
   {
     title: "Local teams",
-    body: "Owned by Kyler Ellison and Curry Austin, with dedicated branches in Fort Worth, Tyler, and San Angelo.",
+    body: "Owned by Kyler Ellison and Curry Austin, headquartered in Fort Worth.",
   },
 ] as const;
 
@@ -141,7 +141,7 @@ export default function HomePage() {
             </h2>
             <p>
               We install, replace, and repair residential and commercial roofs
-              across the Dallas–Fort Worth Metroplex, Tyler, and San Angelo.
+              across the Dallas–Fort Worth Metroplex.
               With more than 28 years of experience, we walk you through product
               choices, coordinate with your insurance adjuster when storm damage
               is involved, and leave your property cleaner than we found it.

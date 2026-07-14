@@ -21,7 +21,7 @@ const geist = Geist({
 
 export const metadata: Metadata = {
   title: {
-    default: `${site.name} | DFW, Tyler & San Angelo Roofers`,
+    default: `${site.name} | DFW Roofers`,
     template: `%s | ${site.name}`,
   },
   description:

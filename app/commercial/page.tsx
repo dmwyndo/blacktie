@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 const offerings = [
   "Flat and sloped commercial roof installations",
   "Durable, energy-efficient materials like TPO and PVC",
+  "Silicone coatings",
   "Roof replacement or retrofitting to meet updated codes",
   "Maintenance plans to extend lifespan and minimize downtime",
 ] as const;
@@ -45,9 +46,8 @@ export default function CommercialPage() {
               large warehouses.
             </h2>
             <p>
-              Based in North and West Texas with dedicated teams in Fort Worth,
-              Tyler, and San Angelo, we take on commercial projects across the
-              entire state.
+              Based in Dallas–Fort Worth, we take on commercial projects across
+              Texas.
             </p>
           </Reveal>
 

@@ -20,10 +20,6 @@ const whyItems = [
     title: "Clean installs",
     body: "Quality materials, careful crews, and a cleanup so thorough neighbors ask if anyone was even there.",
   },
-  {
-    title: "Local teams",
-    body: "Owned by Kyler Ellison and Curry Austin, headquartered in Fort Worth.",
-  },
 ] as const;
 
 const services = [

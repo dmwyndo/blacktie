@@ -3,6 +3,7 @@ export const site = {
   phone: "(817) 401-6440",
   phoneHref: "tel:8174016440",
   email: "info@blacktieroofs.com",
+  inspectionFormTo: "info@blacktieroofing.co",
   areas: "Dallas–Fort Worth",
   locations: "Fort Worth",
   tagline: "Roofing done right.",

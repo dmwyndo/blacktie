@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ContactSectionActions } from "@/components/ContactSectionActions";
 import { Bowtie } from "@/components/Bowtie";
 import { Reveal } from "@/components/Reveal";
 import { GoogleReviewsSection } from "@/components/GoogleReviewsSection";
@@ -255,14 +256,7 @@ export default function HomePage() {
             Schedule a free inspection or call us — we’ll make the next step
             clear.
           </p>
-          <div className="hero-ctas">
-            <a className="btn on-dark solid" href={site.phoneHref}>
-              Request an inspection
-            </a>
-            <a className="btn on-dark ghost" href={site.phoneHref}>
-              {site.phone}
-            </a>
-          </div>
+          <ContactSectionActions />
         </Reveal>
       </section>
     </main>

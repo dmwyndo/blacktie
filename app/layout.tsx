@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Archivo, Geist } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { InspectionModalProvider } from "@/components/InspectionModal";
 import { site } from "@/lib/site";
 import "./globals.css";
 
@@ -36,9 +37,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${archivo.variable} ${geist.variable}`}>
       <body>
-        <Header />
-        {children}
-        <Footer />
+        <InspectionModalProvider>
+          <Header />
+          {children}
+          <Footer />
+        </InspectionModalProvider>
       </body>
     </html>
   );

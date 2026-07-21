@@ -154,9 +154,16 @@ h2.display {
 }
 
 .btn:focus-visible,
-a:focus-visible {
+a:focus-visible,
+button.btn:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
+}
+
+button.btn {
+  cursor: pointer;
+  font: inherit;
+  appearance: none;
 }
 
 /* ---------- nav ---------- */
@@ -1539,6 +1546,139 @@ section {
 
 .closing .hero-ctas {
   justify-content: center;
+}
+
+/* inspection modal */
+.inspection-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: grid;
+  place-items: center;
+  padding: var(--pad);
+  background: rgba(17, 18, 20, 0.78);
+  backdrop-filter: blur(6px);
+}
+
+.inspection-modal-panel {
+  position: relative;
+  width: min(100%, 640px);
+  max-height: min(92vh, 860px);
+  overflow: auto;
+  background: var(--paper);
+  color: var(--ink);
+  padding: clamp(28px, 4vw, 44px);
+  border: 1px solid var(--line);
+}
+
+.inspection-modal-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  border: 0;
+  background: transparent;
+  color: var(--stone);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.inspection-modal-close:hover {
+  color: var(--ink);
+}
+
+.inspection-modal-title {
+  font-size: clamp(28px, 4vw, 42px);
+  margin: 12px 0 14px;
+}
+
+.inspection-modal-lead {
+  color: var(--stone);
+  margin-bottom: 28px;
+  max-width: 52ch;
+}
+
+.inspection-form {
+  display: grid;
+  gap: 18px;
+}
+
+.inspection-form-grid {
+  display: grid;
+  gap: 18px;
+}
+
+@media (min-width: 640px) {
+  .inspection-form-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.inspection-field {
+  display: grid;
+  gap: 8px;
+}
+
+.inspection-field span {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--stone);
+}
+
+.inspection-field input,
+.inspection-field textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 16px;
+  padding: 14px 16px;
+  transition: border-color 0.2s ease;
+}
+
+.inspection-field input:focus,
+.inspection-field textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.inspection-field textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.inspection-honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.inspection-form-error {
+  color: #9b2c2c;
+  font-size: 15px;
+}
+
+.inspection-modal-submit {
+  justify-self: start;
+}
+
+.inspection-modal-submit:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.inspection-modal-success p:last-of-type {
+  color: var(--stone);
+  margin-bottom: 28px;
+  max-width: 48ch;
 }
 
 /* footer */

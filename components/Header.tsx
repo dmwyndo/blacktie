@@ -1,13 +1,18 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Logo } from "@/components/Logo";
 import { SocialLinks } from "@/components/SocialLinks";
 import { site } from "@/lib/site";
 
+const LIGHT_HEADER_PATHS = new Set(["/terms", "/privacy"]);
+
 export function Header() {
+  const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
+  const useLightHeader = LIGHT_HEADER_PATHS.has(pathname);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -17,7 +22,9 @@ export function Header() {
   }, []);
 
   return (
-    <header className={scrolled ? "scrolled" : undefined}>
+    <header
+      className={scrolled || useLightHeader ? "scrolled" : undefined}
+    >
       <div className="wrap nav">
         <Link className="brand" href="/" aria-label={`${site.name} — Home`}>
           <Logo />
